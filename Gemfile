@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '>= 2.4.0'
 
 gem 'activerecord', '>= 4.2.5', '< 8.1', require: false
+gem 'json', '>= 2.10', require: false
 gem 'rake', require: false
 
 group :development do
@@ -19,9 +20,9 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'rspec', require: false
 
-  gem 'rubocop', '~> 1.12.0', require: false
+  gem 'rubocop', '~> 1.50', require: false
   gem 'rubocop-rake', require: false
-  gem 'rubocop-rspec', '~> 2.2.0', require: false
+  gem 'rubocop-rspec', '~> 2.20', require: false
   gem 'simplecov', require: false
   gem 'terminal-notifier-guard', require: false
 
