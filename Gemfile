@@ -3,13 +3,11 @@ source 'https://rubygems.org'
 ruby '>= 2.4.0'
 
 gem 'activerecord', '>= 4.2.5', '< 8.1', require: false
-gem 'json', '>= 2.10', require: false
 gem 'rake', require: false
 
 group :development do
   gem 'bump'
   gem 'mg', require: false
-  gem 'travis', require: false
   platforms :mri, :mingw do
     gem 'yard', require: false
   end
