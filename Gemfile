@@ -37,6 +37,5 @@ group :development, :test do
 end
 
 group :test do
-  gem 'files', require: false
   gem 'git', require: false
 end
